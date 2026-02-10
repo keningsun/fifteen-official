@@ -1,0 +1,22 @@
+<section class="section_header2 background-color-alternative"><div class="grid-cell background-color-alternative"><div class="padding-left-grid border-color-alternate"></div><div class="middle-grid"><div class="container-large"><div class="header2_component"><div class="w-layout-grid header2_content"><div class="header2_content-left"><div class="margin-bottom margin-small"><div class="code-embed w-embed w-script"><script>
+window.Webflow ||= [];
+window.Webflow.push(() => {
+  const blinkingCursors = document.querySelectorAll(".blinking-cursor");
+
+  if (blinkingCursors.length === 0) return;
+
+  blinkingCursors.forEach(cursor => {
+    gsap.to(cursor, {
+      opacity: 0,
+      duration: 0.5,
+      repeat: -1,
+      yoyo: true,
+      ease: "power1.inOut"  // match the .cursor smooth fade
+    });
+  });
+});
+</script></div><h2 class="heading-style-h3">Turn research into repeatable infrastructure<span class="blinking-cursor text-color-accent">_</span></h2></div><p class="text-size-regular text-color-alternate-90">Standardize your team’s sourcing → memo → decision flow with agents, templates, and auditable edits.</p><div class="margin-top margin-medium"><div class="button-group"><a class="button-wrapper border-color-alternate w-inline-block" data-w-id="6f4d7635-e56a-db12-1b2f-e278486f545b" href="/pricing" target="_blank"><div class="button is-icon"><div class="icon-embed-xxsmall w-embed"><svg fill="none" height="13" viewbox="0 0.5 12 13" width="12" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.86 1.64001V11.36M1 6.50001H10.72" stroke="CurrentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"></path>
+</svg></div><div class="text-size-regular text-weight-medium">BOOK A DEMO</div></div></a><a class="button-wrapper border-color-alternate w-inline-block" data-w-id="e268b46a-9002-de11-98c2-1832944a2207" href="/agentos"><div class="button is-alternate is-icon"><div class="icon-embed-xxsmall w-embed"><svg fill="none" height="13" viewbox="0 0.5 12 13" width="12" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.86 1.64001V11.36M1 6.50001H10.72" stroke="CurrentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.3"></path>
+</svg></div><div class="text-size-regular text-weight-medium">LEARN MORE</div></div></a></div></div></div><div class="header2_image-wrapper"><img alt="your team’s research shouldn’t reset every deal. fifteen turns past work into a reusable edge." class="header2_image" loading="eager" src="/assets/webflow/media/68fa40142a512c49f23d5d86_Frame%202087327693.avif"/></div></div></div></div></div><div class="padding-right-grid border-color-alternate"></div></div></section>

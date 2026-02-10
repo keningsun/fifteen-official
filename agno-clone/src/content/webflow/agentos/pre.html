@@ -1,0 +1,295 @@
+<div class="page-wrapper"><div class="global-styles w-embed"><style>
+
+/* Ensure all elements inherit the color from its parent */
+body * {
+    color: inherit;
+}
+
+a,
+.w-input,
+.w-select,
+.w-tab-link,
+.w-nav-link,
+.w-slider-arrow-left,
+.w-slider-arrow-right,
+.w-dropdown-btn,
+.w-dropdown-toggle,
+.w-dropdown-link {
+  color: inherit;
+  text-decoration: inherit;
+  font-size: inherit;
+}
+
+/* Focus state style for keyboard navigation for the focusable elements */
+*[tabindex]:focus-visible,
+  input[type="file"]:focus-visible {
+   outline: 0.125rem solid #4d65ff;
+   outline-offset: 0.125rem;
+}
+
+/* Get rid of top margin on first element in any rich text element */
+.w-richtext > :not(div):first-child, .w-richtext > div:first-child > :first-child {
+  margin-top: 0 !important;
+}
+
+/* Get rid of bottom margin on last element in any rich text element */
+.w-richtext>:last-child, .w-richtext ol li:last-child, .w-richtext ul li:last-child {
+	margin-bottom: 0 !important;
+}
+
+/* Prevent all click and hover interaction with an element */
+.pointer-events-off {
+	pointer-events: none;
+}
+
+/* Enables all click and hover interaction with an element */
+.pointer-events-on {
+  pointer-events: auto;
+}
+
+/* Create a class of .div-square which maintains a 1:1 dimension of a div */
+.div-square::after {
+	content: "";
+	display: block;
+	padding-bottom: 100%;
+}
+
+/* Make sure containers never lose their center alignment */
+.container-medium,.container-small, .container-large {
+	margin-right: auto !important;
+  margin-left: auto !important;
+}
+
+
+/* Apply "..." after 3 lines of text */
+.text-style-3lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 3;
+	-webkit-box-orient: vertical;
+}
+
+/* Apply "..." after 2 lines of text */
+.text-style-2lines {
+	display: -webkit-box;
+	overflow: hidden;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+}
+
+/* Adds inline flex display */
+.display-inlineflex {
+  display: inline-flex;
+}
+
+/* These classes are never overwritten */
+.hide {
+  display: none !important;
+}
+
+@media screen and (max-width: 991px) {
+    .hide, .hide-tablet {
+        display: none !important;
+    }
+}
+  @media screen and (max-width: 767px) {
+    .hide-mobile-landscape{
+      display: none !important;
+    }
+}
+  @media screen and (max-width: 479px) {
+    .hide-mobile{
+      display: none !important;
+    }
+}
+ 
+.margin-0 {
+  margin: 0rem !important;
+}
+  
+.padding-0 {
+  padding: 0rem !important;
+}
+
+.spacing-clean {
+padding: 0rem !important;
+margin: 0rem !important;
+}
+
+.margin-top {
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-top {
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+  
+.margin-right {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-right {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-bottom {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+
+.padding-bottom {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+.margin-left {
+  margin-top: 0rem !important;
+  margin-right: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+  
+.padding-left {
+  padding-top: 0rem !important;
+  padding-right: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+  
+.margin-horizontal {
+  margin-top: 0rem !important;
+  margin-bottom: 0rem !important;
+}
+
+.padding-horizontal {
+  padding-top: 0rem !important;
+  padding-bottom: 0rem !important;
+}
+
+.margin-vertical {
+  margin-right: 0rem !important;
+  margin-left: 0rem !important;
+}
+  
+.padding-vertical {
+  padding-right: 0rem !important;
+  padding-left: 0rem !important;
+}
+
+/* Apply "..." at 100% width */
+.truncate-width { 
+		width: 100%; 
+    white-space: nowrap; 
+    overflow: hidden; 
+    text-overflow: ellipsis; 
+}
+/* Removes native scrollbar */
+.no-scrollbar {
+    -ms-overflow-style: none;
+    overflow: -moz-scrollbars-none; 
+}
+
+.no-scrollbar::-webkit-scrollbar {
+    display: none;
+}
+
+</style></div><div data-animation="default" class="navbar2_component w-nav" data-easing2="ease" fs-scrolldisable-element="smart-nav" data-easing="ease" data-collapse="medium" data-w-id="ad2ddc75-a14e-a42b-48f3-f943c57c98a9" role="banner" data-duration="400" ms-code-scroll-offset="40"><div class="navbar2_container"><a href="/" class="navbar2_logo-link w-nav-brand"><img loading="lazy" src="/assets/webflow/media/6796d350b8c706e4533e8011_Agno%20Logo.png" alt="Agno logo." class="navbar2_logo"/></a><nav role="navigation" class="navbar2_menu is-page-height-tablet w-nav-menu"><div id="w-node-e73337e4-37ee-2b3c-f8af-d66a1c8bdcbf-c57c98a9" class="navbar2_menu-left is-page-height-tablet"><div class="navbar2_menu-wrapper"><div class="navbar2_link-wrapper"><div data-delay="200" data-hover="true" blocks-name="navbar2_menu-dropdown" data-w-id="420c22db-c6c0-cb5b-89e3-43529d339b2c" class="navbar2_menu-dropdown w-dropdown"><div class="navbar2_dropdwn-toggle w-dropdown-toggle"><div class="text-size-small text-weight-medium text-style-allcaps">Product</div><div class="dropdown-chevron w-embed"><svg width=" 100%" height=" 100%" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"/>
+</svg></div></div><nav blocks-name="navbar2_dropdown-list" blocks-slot-children="ST366" class="navbar2_dropdown-list w-dropdown-list"><a data-w-id="abb472c0-9e49-5298-1f6d-d7e3145f6d7f" href="/agent-framework" class="navbar2_dropdown-link w-inline-block"><div class="navbar2_dropdown-link-icon-wrapper"><div class="icon-embed-medium w-embed"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.3" y="0.3" width="47.4" height="47.4" rx="7.7" stroke="#D9D9D9" stroke-width="0.6"/>
+<path d="M16.5 22.0109V17.5L23.5 14.5L30.5 17.5V22.0109C30.5 22.6109 30.1424 23.1533 29.5909 23.3896L24.6818 25.4935C23.9271 25.817 23.0729 25.817 22.3182 25.4935L17.4091 23.3896C16.8576 23.1533 16.5 22.6109 16.5 22.0109Z" fill="#E8E8E8"/>
+<path d="M16.5 17.5V22.0109C16.5 22.6109 16.8576 23.1533 17.4091 23.3896L22.3182 25.4935C23.0729 25.817 23.9271 25.817 24.6818 25.4935L29.5909 23.3896C30.1424 23.1533 30.5 22.6109 30.5 22.0109V17.5M16.5 17.5L22.3182 19.9935C23.0729 20.317 23.9271 20.317 24.6818 19.9935L30.5 17.5M16.5 17.5L23.5 14.5L30.5 17.5" stroke="black" stroke-width="0.3" stroke-linejoin="round"/>
+<path d="M8 26.0109V21.5L15 18.5L22 21.5V26.0109C22 26.6109 21.6424 27.1533 21.0909 27.3896L16.1818 29.4935C15.4271 29.817 14.5729 29.817 13.8182 29.4935L8.90912 27.3896C8.3576 27.1533 8 26.6109 8 26.0109Z" fill="#E8E8E8"/>
+<path d="M8 21.5V26.0109C8 26.6109 8.3576 27.1533 8.90912 27.3896L13.8182 29.4935C14.5729 29.817 15.4271 29.817 16.1818 29.4935L21.0909 27.3896C21.6424 27.1533 22 26.6109 22 26.0109V21.5M8 21.5L13.8182 23.9935C14.5729 24.317 15.4271 24.317 16.1818 23.9935L22 21.5M8 21.5L15 18.5L22 21.5" stroke="black" stroke-width="0.3" stroke-linejoin="round"/>
+<path d="M25 26.0109V21.5L32 18.5L39 21.5V26.0109C39 26.6109 38.6424 27.1533 38.0909 27.3896L33.1818 29.4935C32.4271 29.817 31.5729 29.817 30.8182 29.4935L25.9091 27.3896C25.3576 27.1533 25 26.6109 25 26.0109Z" fill="#E8E8E8"/>
+<path d="M25 21.5V26.0109C25 26.6109 25.3576 27.1533 25.9091 27.3896L30.8182 29.4935C31.5729 29.817 32.4271 29.817 33.1818 29.4935L38.0909 27.3896C38.6424 27.1533 39 26.6109 39 26.0109V21.5M25 21.5L30.8182 23.9935C31.5729 24.317 32.4271 24.317 33.1818 23.9935L39 21.5M25 21.5L32 18.5L39 21.5" stroke="black" stroke-width="0.3" stroke-linejoin="round"/>
+<path d="M16.5 30.0109V25.5L23.5 22.5L30.5 25.5V30.0109C30.5 30.6109 30.1424 31.1533 29.5909 31.3896L24.6818 33.4935C23.9271 33.817 23.0729 33.817 22.3182 33.4935L17.4091 31.3896C16.8576 31.1533 16.5 30.6109 16.5 30.0109Z" fill="#E8E8E8"/>
+<path d="M16.5 25.5V30.0109C16.5 30.6109 16.8576 31.1533 17.4091 31.3896L22.3182 33.4935C23.0729 33.817 23.9271 33.817 24.6818 33.4935L29.5909 31.3896C30.1424 31.1533 30.5 30.6109 30.5 30.0109V25.5M16.5 25.5L22.3182 27.9935C23.0729 28.317 23.9271 28.317 24.6818 27.9935L30.5 25.5M16.5 25.5L23.5 22.5L30.5 25.5" stroke="black" stroke-width="0.3" stroke-linejoin="round"/>
+</svg></div></div><div class="navbar2_dropdown-link-text"><div class="text-size-small text-weight-medium text-style-allcaps text-style-nowrap">Agent Framework</div><div class="text-size-small text-color-tertiary text-style-nowrap">Open-source Python framework </div></div><div class="navbar2_dropdown-link-hover-icon-wrapper"><div class="icon-embed-xxsmall w-embed"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.33203 8.00065H12.6654M12.6654 8.00065L7.9987 3.33398M12.6654 8.00065L7.9987 12.6673" stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div></a><a data-w-id="4755618f-4d22-f422-f3b3-87eaeede5ec8" href="/agentos" aria-current="page" class="navbar2_dropdown-link w-inline-block w--current"><div class="navbar2_dropdown-link-icon-wrapper"><div class="icon-embed-medium w-embed"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.3" y="0.3" width="47.4" height="47.4" rx="7.7" stroke="#D9D9D9" stroke-width="0.6"/>
+<path d="M13 31.5529V28.5L23.5 23.5L34 28.5V31.5529C34 32.1315 33.6673 32.6584 33.1449 32.9072L24.7898 36.8858C23.9738 37.2744 23.0262 37.2744 22.2102 36.8858L13.8551 32.9072C13.3327 32.6584 13 32.1315 13 31.5529Z" fill="#E8E8E8"/>
+<path d="M13 28.5V31.5529C13 32.1315 13.3327 32.6584 13.8551 32.9072L22.2102 36.8858C23.0262 37.2744 23.9738 37.2744 24.7898 36.8858L33.1449 32.9072C33.6673 32.6584 34 32.1315 34 31.5529V28.5M13 28.5L22.2102 32.8858C23.0262 33.2744 23.9738 33.2744 24.7898 32.8858L34 28.5M13 28.5L23.5 23.5L34 28.5" stroke="black" stroke-width="0.3" stroke-linejoin="round"/>
+<path d="M13 25.5529V22.5L23.5 17.5L34 22.5V25.5529C34 26.1315 33.6673 26.6584 33.1449 26.9072L24.7898 30.8858C23.9738 31.2744 23.0262 31.2744 22.2102 30.8858L13.8551 26.9072C13.3327 26.6584 13 26.1315 13 25.5529Z" fill="#E8E8E8"/>
+<path d="M13 22.5V25.5529C13 26.1315 13.3327 26.6584 13.8551 26.9072L22.2102 30.8858C23.0262 31.2744 23.9738 31.2744 24.7898 30.8858L33.1449 26.9072C33.6673 26.6584 34 26.1315 34 25.5529V22.5M13 22.5L22.2102 26.8858C23.0262 27.2744 23.9738 27.2744 24.7898 26.8858L34 22.5M13 22.5L23.5 17.5L34 22.5" stroke="black" stroke-width="0.3" stroke-linejoin="round"/>
+<path d="M13 19.0529V16L23.5 11L34 16V19.0529C34 19.6315 33.6673 20.1584 33.1449 20.4072L24.7898 24.3858C23.9738 24.7744 23.0262 24.7744 22.2102 24.3858L13.8551 20.4072C13.3327 20.1584 13 19.6315 13 19.0529Z" fill="#E8E8E8"/>
+<path d="M13 16V19.0529C13 19.6315 13.3327 20.1584 13.8551 20.4072L22.2102 24.3858C23.0262 24.7744 23.9738 24.7744 24.7898 24.3858L33.1449 20.4072C33.6673 20.1584 34 19.6315 34 19.0529V16M13 16L22.2102 20.3858C23.0262 20.7744 23.9738 20.7744 24.7898 20.3858L34 16M13 16L23.5 11L34 16" stroke="black" stroke-width="0.3" stroke-linejoin="round"/>
+</svg></div></div><div class="navbar2_dropdown-link-text"><div class="text-size-small text-weight-medium text-style-allcaps text-style-nowrap">Agentos</div><div class="text-size-small text-color-tertiary text-style-nowrap">High-performance runtime for multi-agent systems</div></div><div class="navbar2_dropdown-link-hover-icon-wrapper"><div class="icon-embed-xxsmall w-embed"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.33203 8.00065H12.6654M12.6654 8.00065L7.9987 3.33398M12.6654 8.00065L7.9987 12.6673" stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div></a></nav></div><div data-delay="200" data-hover="true" blocks-name="navbar2_menu-dropdown" data-w-id="1480247c-c8e8-096c-0501-28b74e58503d" class="navbar2_menu-dropdown w-dropdown"><div class="navbar2_dropdwn-toggle w-dropdown-toggle"><div class="text-size-small text-weight-medium text-style-allcaps">Resources</div><div class="dropdown-chevron w-embed"><svg width=" 100%" height=" 100%" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.55806 6.29544C2.46043 6.19781 2.46043 6.03952 2.55806 5.94189L3.44195 5.058C3.53958 4.96037 3.69787 4.96037 3.7955 5.058L8.00001 9.26251L12.2045 5.058C12.3021 4.96037 12.4604 4.96037 12.5581 5.058L13.4419 5.94189C13.5396 6.03952 13.5396 6.19781 13.4419 6.29544L8.17678 11.5606C8.07915 11.6582 7.92086 11.6582 7.82323 11.5606L2.55806 6.29544Z" fill="currentColor"/>
+</svg></div></div><nav blocks-name="navbar2_dropdown-list" blocks-slot-children="ST366" class="navbar2_dropdown-list w-dropdown-list"><a data-w-id="1480247c-c8e8-096c-0501-28b74e585043" href="/blog" class="navbar2_dropdown-link w-inline-block"><div class="navbar2_dropdown-link-icon-wrapper"><div class="icon-embed-medium w-embed"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.3" y="0.3" width="47.4" height="47.4" rx="7.7" stroke="#D9D9D9" stroke-width="0.6"/>
+<path d="M12.4727 14.6309H19.3847C20.6068 14.6309 21.7788 15.1163 22.643 15.9805C23.5072 16.8447 23.9927 18.0167 23.9927 19.2389V35.3669C23.9927 34.4503 23.6285 33.5712 22.9804 32.9231C22.3323 32.275 21.4532 31.9109 20.5367 31.9109H12.4727V14.6309Z" fill="#E8E8E8"/>
+<path d="M35.5127 14.6309H28.6007C27.3785 14.6309 26.2065 15.1163 25.3423 15.9805C24.4781 16.8447 23.9927 18.0167 23.9927 19.2389V35.3669C23.9927 34.4503 24.3568 33.5712 25.0049 32.9231C25.653 32.275 26.5321 31.9109 27.4487 31.9109H35.5127V14.6309Z" fill="#E8E8E8"/>
+<path d="M23.9927 19.2389C23.9927 18.0167 23.5072 16.8447 22.643 15.9805C21.7788 15.1163 20.6068 14.6309 19.3847 14.6309H12.4727V31.9109H20.5367C21.4532 31.9109 22.3323 32.275 22.9804 32.9231C23.6285 33.5712 23.9927 34.4503 23.9927 35.3669M23.9927 19.2389V35.3669M23.9927 19.2389C23.9927 18.0167 24.4781 16.8447 25.3423 15.9805C26.2065 15.1163 27.3785 14.6309 28.6007 14.6309H35.5127V31.9109H27.4487C26.5321 31.9109 25.653 32.275 25.0049 32.9231C24.3568 33.5712 23.9927 34.4503 23.9927 35.3669" stroke="#18181B" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="navbar2_dropdown-link-text"><div class="text-size-small text-weight-medium text-style-allcaps text-style-nowrap">Blog</div><div class="text-size-small text-color-tertiary text-style-nowrap">The latest across news, updates, and insights</div></div><div class="navbar2_dropdown-link-hover-icon-wrapper"><div class="icon-embed-xxsmall w-embed"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.33203 8.00065H12.6654M12.6654 8.00065L7.9987 3.33398M12.6654 8.00065L7.9987 12.6673" stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div></a><a data-w-id="1480247c-c8e8-096c-0501-28b74e58504d" href="/changelog" class="navbar2_dropdown-link w-inline-block"><div class="navbar2_dropdown-link-icon-wrapper"><div class="icon-embed-medium w-embed"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect x="0.3" y="0.3" width="47.4" height="47.4" rx="7.7" stroke="#D9D9D9" stroke-width="0.6"/>
+<path d="M16 18.8C16 17.1198 16 16.2798 16.327 15.638C16.6146 15.0735 17.0735 14.6146 17.638 14.327C18.2798 14 19.1198 14 20.8 14H24.0118C24.7455 14 25.1124 14 25.4577 14.0829C25.7638 14.1564 26.0564 14.2776 26.3249 14.4421C26.6276 14.6276 26.887 14.887 27.4059 15.4059L30.5941 18.5941C31.113 19.113 31.3724 19.3724 31.5579 19.6751C31.7224 19.9436 31.8436 20.2362 31.9171 20.5423C32 20.8876 32 21.2545 32 21.9882V29.2C32 30.8802 32 31.7202 31.673 32.362C31.3854 32.9265 30.9265 33.3854 30.362 33.673C29.7202 34 28.8802 34 27.2 34H20.8C19.1198 34 18.2798 34 17.638 33.673C17.0735 33.3854 16.6146 32.9265 16.327 32.362C16 31.7202 16 30.8802 16 29.2V18.8Z" fill="#E8E8E8"/>
+<path d="M26 14.2695V18.4C26 18.9601 26 19.2401 26.109 19.454C26.2049 19.6422 26.3578 19.7951 26.546 19.891C26.7599 20 27.0399 20 27.6 20H31.7305M32 21.9882V29.2C32 30.8802 32 31.7202 31.673 32.362C31.3854 32.9265 30.9265 33.3854 30.362 33.673C29.7202 34 28.8802 34 27.2 34H20.8C19.1198 34 18.2798 34 17.638 33.673C17.0735 33.3854 16.6146 32.9265 16.327 32.362C16 31.7202 16 30.8802 16 29.2V18.8C16 17.1198 16 16.2798 16.327 15.638C16.6146 15.0735 17.0735 14.6146 17.638 14.327C18.2798 14 19.1198 14 20.8 14H24.0118C24.7455 14 25.1124 14 25.4577 14.0829C25.7638 14.1564 26.0564 14.2776 26.3249 14.4421C26.6276 14.6276 26.887 14.887 27.4059 15.4059L30.5941 18.5941C31.113 19.113 31.3724 19.3724 31.5579 19.6751C31.7224 19.9436 31.8436 20.2362 31.9171 20.5423C32 20.8876 32 21.2545 32 21.9882Z" stroke="#18181B" stroke-width="0.3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div><div class="navbar2_dropdown-link-text"><div class="text-size-small text-weight-medium text-style-allcaps text-style-nowrap">Changelog</div><div class="text-size-small text-color-tertiary text-style-nowrap">See what shipped</div></div><div class="navbar2_dropdown-link-hover-icon-wrapper"><div class="icon-embed-xxsmall w-embed"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.33203 8.00065H12.6654M12.6654 8.00065L7.9987 3.33398M12.6654 8.00065L7.9987 12.6673" stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div></a><a data-w-id="ca07fa06-1587-a965-af8f-3ba87fafd797" href="/the-agno-loop-newsleter" class="navbar2_dropdown-link w-inline-block"><div class="navbar2_dropdown-link-icon-wrapper"><div class="icon-embed-medium w-embed"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_1_11)">
+<path d="M40 0.299999H8C3.74741 0.299999 0.3 3.74741 0.3 8V40C0.3 44.2526 3.74741 47.7 8 47.7H40C44.2526 47.7 47.7 44.2526 47.7 40V8C47.7 3.74741 44.2526 0.299999 40 0.299999Z" stroke="#D9D9D9" stroke-width="0.6"/>
+<path d="M14.5 14.5H31.5L32 34L14.5 33.5V14.5Z" fill="#E8E8E8"/>
+<path d="M30.8193 14C31.433 14 31.9453 14.623 31.9453 15.3701V18.8662H32.874C33.4877 18.8662 34 19.4893 34 20.2363V32.6309C33.9998 33.3015 33.5982 33.8568 33.0869 33.9717C33.0788 33.9816 33.0706 33.9814 33.0625 33.9814C33.055 33.9906 33.0472 33.9912 33.0391 33.9912H33.0078V34H15.1182C14.5039 33.9999 14 33.3868 14 32.6299V15.3701C14 14.6231 14.5039 14.0001 15.1182 14H30.8193ZM15.1182 14.5459C14.7401 14.546 14.4414 14.9102 14.4414 15.3701V32.6309C14.4416 33.0906 14.7402 33.4638 15.1182 33.4639H31.8975C31.6697 33.1283 31.504 32.6306 31.5039 31.8838V19.1436C31.4964 19.1245 31.4964 19.1151 31.5039 19.0957V15.3701C31.5039 14.9102 31.1961 14.5459 30.8184 14.5459H15.1182ZM31.9453 19.4121V31.8828C31.9453 32.8791 32.213 33.2051 32.4648 33.3584C32.5828 33.4258 32.6848 33.4547 32.7793 33.4639H32.874C33.2515 33.4638 33.5586 33.0901 33.5586 32.6299V20.2354C33.5584 19.7757 33.2516 19.4122 32.874 19.4121H31.9453ZM26.1963 16.3564C26.3064 16.3564 26.4168 16.4902 26.417 16.6338V21.2031C26.417 21.3472 26.3068 21.4717 26.1963 21.4717H19.748C19.63 21.4717 19.5274 21.3472 19.5273 21.2031V16.6338C19.5275 16.5001 19.6145 16.3755 19.7246 16.3564H26.1963ZM19.9688 16.9023V20.9346H25.9688V16.9023H19.9688Z" fill="#18181B"/>
+</g>
+<defs>
+<clipPath id="clip0_1_11">
+<rect width="48" height="48" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div><div class="navbar2_dropdown-link-text"><div class="text-size-small text-weight-medium text-style-allcaps text-style-nowrap">Newsletter</div><div class="text-size-small text-color-tertiary text-style-nowrap">Get our monthly newsletter</div></div><div class="navbar2_dropdown-link-hover-icon-wrapper"><div class="icon-embed-xxsmall w-embed"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.33203 8.00065H12.6654M12.6654 8.00065L7.9987 3.33398M12.6654 8.00065L7.9987 12.6673" stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div></a><a data-w-id="bf827f76-1f16-ced0-b5b9-ed478d5c36ee" href="/discord" class="navbar2_dropdown-link w-inline-block"><div class="navbar2_dropdown-link-icon-wrapper"><div class="icon-embed-medium w-embed"><svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g clip-path="url(#clip0_12_97)">
+<mask id="mask0_12_97" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+<path d="M48 0H0V48H48V0Z" fill="white"/>
+</mask>
+<g mask="url(#mask0_12_97)">
+<path d="M40 0.299999H8C3.74741 0.299999 0.300003 3.74741 0.300003 8V40C0.300003 44.2526 3.74741 47.7 8 47.7H40C44.2526 47.7 47.7 44.2526 47.7 40V8C47.7 3.74741 44.2526 0.299999 40 0.299999Z" stroke="#D9D9D9" stroke-width="0.6"/>
+<path d="M28.0193 14C27.775 14.4349 27.5556 14.8848 27.3562 15.3446C25.4616 15.0597 23.5322 15.0597 21.6326 15.3446C21.4382 14.8848 21.2138 14.4349 20.9695 14C19.1896 14.3049 17.4545 14.8398 15.8093 15.5946C12.5486 20.4383 11.6661 25.1571 12.1049 29.8108C14.0144 31.2255 16.1533 32.3052 18.4318 32.995C18.9453 32.3052 19.399 31.5704 19.7879 30.8056C19.05 30.5307 18.337 30.1857 17.654 29.7859C17.8335 29.6559 18.008 29.5209 18.1775 29.391C22.181 31.2805 26.8178 31.2805 30.8263 29.391C30.9958 29.5309 31.1703 29.6659 31.3498 29.7859C30.6667 30.1907 29.9538 30.5307 29.2109 30.8106C29.5998 31.5754 30.0535 32.3102 30.567 33C32.8454 32.3102 34.9843 31.2355 36.894 29.8208C37.4124 24.4223 36.0065 19.7435 33.1795 15.5996C31.5392 14.8448 29.8042 14.3099 28.0243 14.01L28.0193 14ZM20.3463 26.9466C19.1148 26.9466 18.0927 25.8269 18.0927 24.4423C18.0927 23.0576 19.0749 21.9329 20.3413 21.9329C21.6077 21.9329 22.6148 23.0626 22.5948 24.4423C22.5749 25.8219 21.6027 26.9466 20.3463 26.9466ZM28.6525 26.9466C27.416 26.9466 26.4039 25.8269 26.4039 24.4423C26.4039 23.0576 27.3861 21.9329 28.6525 21.9329C29.9189 21.9329 30.921 23.0626 30.9011 24.4423C30.8811 25.8219 29.9089 26.9466 28.6525 26.9466Z" fill="#A1A1A1"/>
+</g>
+</g>
+<defs>
+<clipPath id="clip0_12_97">
+<rect width="48" height="48" fill="white"/>
+</clipPath>
+</defs>
+</svg></div></div><div class="navbar2_dropdown-link-text"><div class="text-size-small text-weight-medium text-style-allcaps text-style-nowrap">Discord</div><div class="text-size-small text-color-tertiary text-style-nowrap">Join our community of builders</div></div><div class="navbar2_dropdown-link-hover-icon-wrapper"><div class="icon-embed-xxsmall w-embed"><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M3.33203 8.00065H12.6654M12.6654 8.00065L7.9987 3.33398M12.6654 8.00065L7.9987 12.6673" stroke="#18181B" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div></div></a></nav></div><a href="https://docs.agno.com" target="_blank" class="navbar2_link w-inline-block"><div class="text-size-small text-weight-medium text-style-allcaps">Docs</div></a><a href="/pricing" class="navbar2_link w-inline-block"><div class="text-size-small text-weight-medium text-style-allcaps">Pricing</div></a><a href="/about" class="navbar2_link w-inline-block"><div class="text-size-small text-weight-medium text-style-allcaps">Team agno</div></a></div></div><div id="w-node-ad2ddc75-a14e-a42b-48f3-f943c57c98c2-c57c98a9" class="navbar2_button-wrapper"><a data-w-id="ad2ddc75-a14e-a42b-48f3-f943c57c98c8" href="https://os.agno.com/" target="_blank" class="button-wrapper tablet-max-width-full w-inline-block"><div class="button is-small is-icon"><div class="icon-embed-xxsmall w-embed"><svg width="12" height="13" viewBox="0 0.5 12 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M5.86 1.64001V11.36M1 6.50001H10.72" stroke="CurrentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round"/>
+</svg></div><div class="text-size-small text-weight-medium">TRY AGENTOS</div></div></a></div></div></nav><div class="navbar2_menu-button w-nav-button"><div class="menu-icon4"><div class="menu-icon4_wrapper"><div class="menu-icon4_line-top"><div class="navbar-line-embed w-embed"><svg width="20" height="3" viewBox="0 0 20 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="17.6143" cy="1.59664" r="1.40328" transform="rotate(90 17.6143 1.59664)" fill="#18181b"/>
+<circle cx="13.8077" cy="1.59664" r="1.40328" transform="rotate(90 13.8077 1.59664)" fill="#18181b"/>
+<circle cx="10.001" cy="1.59664" r="1.40328" transform="rotate(90 10.001 1.59664)" fill="#18181b"/>
+<circle cx="6.19438" cy="1.59664" r="1.40328" transform="rotate(90 6.19438 1.59664)" fill="#18181b"/>
+<circle cx="2.38774" cy="1.59664" r="1.40328" transform="rotate(90 2.38774 1.59664)" fill="#18181b"/>
+</svg></div></div><div class="menu-icon4_line-bottom"><div class="navbar-line-embed w-embed"><svg width="20" height="3" viewBox="0 0 20 3" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="17.6143" cy="1.59664" r="1.40328" transform="rotate(90 17.6143 1.59664)" fill="#18181b"/>
+<circle cx="13.8077" cy="1.59664" r="1.40328" transform="rotate(90 13.8077 1.59664)" fill="#18181b"/>
+<circle cx="10.001" cy="1.59664" r="1.40328" transform="rotate(90 10.001 1.59664)" fill="#18181b"/>
+<circle cx="6.19438" cy="1.59664" r="1.40328" transform="rotate(90 6.19438 1.59664)" fill="#18181b"/>
+<circle cx="2.38774" cy="1.59664" r="1.40328" transform="rotate(90 2.38774 1.59664)" fill="#18181b"/>
+</svg></div></div></div></div></div><div class="embed-code w-embed"><style>
+@media screen and (min-width: 992px) and (max-width: 1022px) {
+  .navbar2_link-wrapper {
+    gap: 0 !important;
+    column-gap: 0 !important;
+    row-gap: 0 !important;
+  }
+}
+</style></div></div></div>

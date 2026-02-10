@@ -1,0 +1,47 @@
+---
+import WebflowLayout from '../layouts/WebflowLayout.astro';
+import headHtml from '../content/webflow/heads/agentos.html?raw';
+import htmlAttrsMap from '../content/webflow/attrs.json';
+import bodyAttrsMap from '../content/webflow/body-attrs.json';
+
+import AgentosPre from '../sections/agentos/AgentosPre.astro';
+import AgentosMainOpen from '../sections/agentos/AgentosMainOpen.astro';
+import Section01SectionHeader27 from '../sections/agentos/Section01SectionHeader27.astro';
+import Section03SectionLogo2 from '../sections/agentos/Section03SectionLogo2.astro';
+import Section04SectionHeader55 from '../sections/agentos/Section04SectionHeader55.astro';
+import Section05SectionHeader46 from '../sections/agentos/Section05SectionHeader46.astro';
+import Section06SectionHeader01 from '../sections/agentos/Section06SectionHeader01.astro';
+import Section07SectionHeader01 from '../sections/agentos/Section07SectionHeader01.astro';
+import Section08SectionHeader01 from '../sections/agentos/Section08SectionHeader01.astro';
+import Section09SectionHeader2 from '../sections/agentos/Section09SectionHeader2.astro';
+import Section10SectionLayout234 from '../sections/agentos/Section10SectionLayout234.astro';
+import Section11SectionFaq3 from '../sections/agentos/Section11SectionFaq3.astro';
+import Section12SectionHeader46 from '../sections/agentos/Section12SectionHeader46.astro';
+import Section13SectionHeader46 from '../sections/agentos/Section13SectionHeader46.astro';
+import AgentosMainClose from '../sections/agentos/AgentosMainClose.astro';
+import AgentosPost from '../sections/agentos/AgentosPost.astro';
+
+const key = 'agentos';
+---
+<WebflowLayout
+  htmlAttrs={htmlAttrsMap[key]}
+  bodyAttrs={bodyAttrsMap[key]}
+  headHtml={headHtml}
+>
+  <AgentosPre />
+  <AgentosMainOpen />
+  <Section01SectionHeader27 />
+  <Section03SectionLogo2 />
+  <Section04SectionHeader55 />
+  <Section05SectionHeader46 />
+  <Section06SectionHeader01 />
+  <Section07SectionHeader01 />
+  <Section08SectionHeader01 />
+  <Section09SectionHeader2 />
+  <Section10SectionLayout234 />
+  <Section11SectionFaq3 />
+  <Section12SectionHeader46 />
+  <Section13SectionHeader46 />
+  <AgentosMainClose />
+  <AgentosPost />
+</WebflowLayout>

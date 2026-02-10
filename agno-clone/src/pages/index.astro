@@ -1,0 +1,49 @@
+---
+import WebflowLayout from '../layouts/WebflowLayout.astro';
+import headHtml from '../content/webflow/heads/agent-framework.html?raw';
+import htmlAttrsMap from '../content/webflow/attrs.json';
+import bodyAttrsMap from '../content/webflow/body-attrs.json';
+
+import AgentFrameworkPre from '../sections/agent-framework/AgentFrameworkPre.astro';
+import AgentFrameworkMainOpen from '../sections/agent-framework/AgentFrameworkMainOpen.astro';
+import Section01SectionHeader1 from '../sections/agent-framework/Section01SectionHeader1.astro';
+import Section02SectionLayout0234 from '../sections/agent-framework/Section02SectionLayout0234.astro';
+import Section04SectionLogo2 from '../sections/agent-framework/Section04SectionLogo2.astro';
+import Section05SectionHeader55 from '../sections/agent-framework/Section05SectionHeader55.astro';
+import Section06SectionHeader46 from '../sections/agent-framework/Section06SectionHeader46.astro';
+import Section07SectionLayout394 from '../sections/agent-framework/Section07SectionLayout394.astro';
+import Section08SectionHeader46 from '../sections/agent-framework/Section08SectionHeader46.astro';
+import Section09SectionLayout399 from '../sections/agent-framework/Section09SectionLayout399.astro';
+import Section11SectionHeader2 from '../sections/agent-framework/Section11SectionHeader2.astro';
+import Section12SectionLayout234 from '../sections/agent-framework/Section12SectionLayout234.astro';
+import Section13SectionFaq3 from '../sections/agent-framework/Section13SectionFaq3.astro';
+import Section14SectionHeader46 from '../sections/agent-framework/Section14SectionHeader46.astro';
+import Section15SectionHeader46 from '../sections/agent-framework/Section15SectionHeader46.astro';
+import AgentFrameworkMainClose from '../sections/agent-framework/AgentFrameworkMainClose.astro';
+import AgentFrameworkPost from '../sections/agent-framework/AgentFrameworkPost.astro';
+
+const key = 'agent-framework';
+---
+<WebflowLayout
+  htmlAttrs={htmlAttrsMap[key]}
+  bodyAttrs={bodyAttrsMap[key]}
+  headHtml={headHtml}
+>
+  <AgentFrameworkPre />
+  <AgentFrameworkMainOpen />
+  <Section01SectionHeader1 />
+  <Section02SectionLayout0234 />
+  <Section04SectionLogo2 />
+  <Section05SectionHeader55 />
+  <Section06SectionHeader46 />
+  <Section07SectionLayout394 />
+  <Section08SectionHeader46 />
+  <Section09SectionLayout399 />
+  <Section11SectionHeader2 />
+  <Section12SectionLayout234 />
+  <Section13SectionFaq3 />
+  <Section14SectionHeader46 />
+  <Section15SectionHeader46 />
+  <AgentFrameworkMainClose />
+  <AgentFrameworkPost />
+</WebflowLayout>

@@ -1,0 +1,275 @@
+url = "https://cdn.prod.website-files.com/66e0d4ef58ba78f56e23564e/67915b121eb77f57ab4fc797_opengraph%202.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/67915b121eb77f57ab4fc797_opengraph%202.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6796d350b8c706e4533e7e6e_chevron-down-white.svg"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6796d350b8c706e4533e7e6e_chevron-down-white.svg"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6796d350b8c706e4533e7e87_chevron-down.svg"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6796d350b8c706e4533e7e87_chevron-down.svg"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6796d350b8c706e4533e7e8d_GeistMono-Regular.woff2"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6796d350b8c706e4533e7e8d_GeistMono-Regular.woff2"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6796d350b8c706e4533e7e92_Inter-Regular.woff2"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6796d350b8c706e4533e7e92_Inter-Regular.woff2"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6796d350b8c706e4533e7eb3_Inter-SemiBold.woff2"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6796d350b8c706e4533e7eb3_Inter-SemiBold.woff2"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6796d350b8c706e4533e7eb4_Inter-Medium.woff2"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6796d350b8c706e4533e7eb4_Inter-Medium.woff2"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6796d350b8c706e4533e7eb5_Inter-Bold.woff2"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6796d350b8c706e4533e7eb5_Inter-Bold.woff2"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6796d350b8c706e4533e7eb8_InterDisplay-Bold.woff2"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6796d350b8c706e4533e7eb8_InterDisplay-Bold.woff2"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6796d350b8c706e4533e7f74_InterDisplay-Medium.woff2"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6796d350b8c706e4533e7f74_InterDisplay-Medium.woff2"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6796d350b8c706e4533e7f75_InterDisplay-SemiBold.woff2"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6796d350b8c706e4533e7f75_InterDisplay-SemiBold.woff2"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6796d350b8c706e4533e8007_OffBit-DotBold.woff2"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6796d350b8c706e4533e8007_OffBit-DotBold.woff2"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6796d350b8c706e4533e8011_Agno%20Logo.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6796d350b8c706e4533e8011_Agno%20Logo.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/688cd35491fa030055590c63_Frame%202087327637.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/688cd35491fa030055590c63_Frame%202087327637.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/688d55f70d7d3716ecbcf057_e94385babccd4a208b63d6bed975b744_Group%202087327150.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/688d55f70d7d3716ecbcf057_e94385babccd4a208b63d6bed975b744_Group%202087327150.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/688d55f7d9472161d1b821d2_4aded775f89032811d982bad0162f842_Group%202087327153.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/688d55f7d9472161d1b821d2_4aded775f89032811d982bad0162f842_Group%202087327153.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68929781911c62beced5e06d_Frame%202087327643-p-1080.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68929781911c62beced5e06d_Frame%202087327643-p-1080.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68929781911c62beced5e06d_Frame%202087327643-p-500.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68929781911c62beced5e06d_Frame%202087327643-p-500.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68929781911c62beced5e06d_Frame%202087327643-p-800.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68929781911c62beced5e06d_Frame%202087327643-p-800.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68929781911c62beced5e06d_Frame%202087327643.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68929781911c62beced5e06d_Frame%202087327643.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6892a027fbe578d2e08f8354_3c13d209ef3fb77a2500f31843d616f8_Frame%202087327768.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6892a027fbe578d2e08f8354_3c13d209ef3fb77a2500f31843d616f8_Frame%202087327768.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6895155a39d3e72ccf9cb225_Component%2017.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6895155a39d3e72ccf9cb225_Component%2017.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6895158f070c3164d15f3a74_d079a6093f892e391a957c84cb65839d_AGNO%20PRIVACY-p-500.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6895158f070c3164d15f3a74_d079a6093f892e391a957c84cb65839d_AGNO%20PRIVACY-p-500.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6895158f070c3164d15f3a74_d079a6093f892e391a957c84cb65839d_AGNO%20PRIVACY-p-800.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6895158f070c3164d15f3a74_d079a6093f892e391a957c84cb65839d_AGNO%20PRIVACY-p-800.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6895158f070c3164d15f3a74_d079a6093f892e391a957c84cb65839d_AGNO%20PRIVACY.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6895158f070c3164d15f3a74_d079a6093f892e391a957c84cb65839d_AGNO%20PRIVACY.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68952c83390e42ee1491295b_image6.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68952c83390e42ee1491295b_image6.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68952c834d9edf939815ae6a_image2.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68952c834d9edf939815ae6a_image2.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68952c839a0c9299ecdf203a_image1.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68952c839a0c9299ecdf203a_image1.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68952c83a416221175a35f3f_image4.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68952c83a416221175a35f3f_image4.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68952c83e352bf0080c3a241_image3.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68952c83e352bf0080c3a241_image3.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68952c83e60a4734025ca270_image5.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68952c83e60a4734025ca270_image5.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68952d0379acc3bddf189363_no.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68952d0379acc3bddf189363_no.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6896029601a663e63d79da3a_%7B%7D.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6896029601a663e63d79da3a_%7B%7D.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68960746ac1576a567294572_14648c1d47edb2f328a2d2156cb3685b_agents-p-500.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68960746ac1576a567294572_14648c1d47edb2f328a2d2156cb3685b_agents-p-500.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68960746ac1576a567294572_14648c1d47edb2f328a2d2156cb3685b_agents.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68960746ac1576a567294572_14648c1d47edb2f328a2d2156cb3685b_agents.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/689607b40115b07106d2954e_fdb0e097b8e04cd7a5be2b6b52b77705_empty-layer-p-500.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/689607b40115b07106d2954e_fdb0e097b8e04cd7a5be2b6b52b77705_empty-layer-p-500.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/689607b40115b07106d2954e_fdb0e097b8e04cd7a5be2b6b52b77705_empty-layer.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/689607b40115b07106d2954e_fdb0e097b8e04cd7a5be2b6b52b77705_empty-layer.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6896081da9c4eaa8e0280696_6499d5d42247cc1976474b591d877bf8_system-p-500.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6896081da9c4eaa8e0280696_6499d5d42247cc1976474b591d877bf8_system-p-500.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6896081da9c4eaa8e0280696_6499d5d42247cc1976474b591d877bf8_system.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6896081da9c4eaa8e0280696_6499d5d42247cc1976474b591d877bf8_system.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6896087e1d586196a1b865b9_6153389a12f3d0859fa98a79954f7b42_memory-p-500.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6896087e1d586196a1b865b9_6153389a12f3d0859fa98a79954f7b42_memory-p-500.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6896087e1d586196a1b865b9_6153389a12f3d0859fa98a79954f7b42_memory.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6896087e1d586196a1b865b9_6153389a12f3d0859fa98a79954f7b42_memory.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/689608a1be08dfa75de97fbc_3eddd72fd4315d08020ac4d8f6668bac_cloud-p-500.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/689608a1be08dfa75de97fbc_3eddd72fd4315d08020ac4d8f6668bac_cloud-p-500.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/689608a1be08dfa75de97fbc_3eddd72fd4315d08020ac4d8f6668bac_cloud.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/689608a1be08dfa75de97fbc_3eddd72fd4315d08020ac4d8f6668bac_cloud.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6896092f330f30dae52cad08_272f7c18846d5360d7df9375f754db90_agents-layer-p-500.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6896092f330f30dae52cad08_272f7c18846d5360d7df9375f754db90_agents-layer-p-500.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6896092f330f30dae52cad08_272f7c18846d5360d7df9375f754db90_agents-layer.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6896092f330f30dae52cad08_272f7c18846d5360d7df9375f754db90_agents-layer.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6898a0058b1172255ff42fbf_73eef62da3849ca4ff72f3e74c4513ec_Metrics.lottie"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6898a0058b1172255ff42fbf_73eef62da3849ca4ff72f3e74c4513ec_Metrics.lottie"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6898b841d94ba5b48084bf53_04d181a309439d49bb57a2669ae8122b_tab_%20Memory.lottie"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6898b841d94ba5b48084bf53_04d181a309439d49bb57a2669ae8122b_tab_%20Memory.lottie"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6898cb2a0196b39095531bd9_648c4a45f99c5032e6a6ea99719bcc10_Knowledge%20manager.lottie"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6898cb2a0196b39095531bd9_648c4a45f99c5032e6a6ea99719bcc10_Knowledge%20manager.lottie"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6898d39d3f21edb67088bb9c_9572020bf509ea676ecbe0e385cbd42b_session.lottie"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6898d39d3f21edb67088bb9c_9572020bf509ea676ecbe0e385cbd42b_session.lottie"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6898f9f590293ab3ec2bd6e3_cc08126cb64989f94ef03a9af4176292_Evaluations.lottie"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6898f9f590293ab3ec2bd6e3_cc08126cb64989f94ef03a9af4176292_Evaluations.lottie"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6898feae90293ab3ec2c8af4_time%20mobile.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6898feae90293ab3ec2c8af4_time%20mobile.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6898feaedd99b37c6c81a801_90819a3bcb6babe890340738da782707_memory%20performance%20mobile-p-500.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6898feaedd99b37c6c81a801_90819a3bcb6babe890340738da782707_memory%20performance%20mobile-p-500.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6898feaedd99b37c6c81a801_90819a3bcb6babe890340738da782707_memory%20performance%20mobile.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6898feaedd99b37c6c81a801_90819a3bcb6babe890340738da782707_memory%20performance%20mobile.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/689901c83762f2f611626ac9_c0942948f5605f447fd31a271aaf351a_statusquo%20privacy%20mobile.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/689901c83762f2f611626ac9_c0942948f5605f447fd31a271aaf351a_statusquo%20privacy%20mobile.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/689901c8d29fc223a2edf261_c11035b9269774c8f62e45ecad52add7_agno%20privacy%20mobile.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/689901c8d29fc223a2edf261_c11035b9269774c8f62e45ecad52add7_agno%20privacy%20mobile.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68992377d95cefa72a1969b5_41989402dccfd45bba78028e531d4f2c_opengraph12.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68992377d95cefa72a1969b5_41989402dccfd45bba78028e531d4f2c_opengraph12.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/689b3b601baafddae3c0a739_RobotoMono-Medium.woff2"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/689b3b601baafddae3c0a739_RobotoMono-Medium.woff2"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/689b3b78da19c122d13ff9c9_RobotoMono-Regular.woff2"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/689b3b78da19c122d13ff9c9_RobotoMono-Regular.woff2"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/689b3b8943d1759e450c1094_RobotoMono-Bold.woff2"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/689b3b8943d1759e450c1094_RobotoMono-Bold.woff2"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/689baa0854831df3725ec8b7_6416750e7ab3f27d87d33cde5869f7af_Without%20Agno.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/689baa0854831df3725ec8b7_6416750e7ab3f27d87d33cde5869f7af_Without%20Agno.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68a85cff903ee6514fac3a97_32.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68a85cff903ee6514fac3a97_32.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68a85d04c4b355c4accb0f9f_256.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68a85d04c4b355c4accb0f9f_256.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68fa2d4c491940172d997b41_05fbc02f0820a80eb1ba8911ee5e3624_agent-hero.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68fa2d4c491940172d997b41_05fbc02f0820a80eb1ba8911ee5e3624_agent-hero.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68fa38353d17bfd7a2943004_7f2d594ada5d101f961075a2bc061034_card-img1.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68fa38353d17bfd7a2943004_7f2d594ada5d101f961075a2bc061034_card-img1.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68fa38353ea4e2beff73944b_57f9c7b0b9febf341812c67a28c66218_card-img2.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68fa38353ea4e2beff73944b_57f9c7b0b9febf341812c67a28c66218_card-img2.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68fa38356788375cf9fea325_04136a9b2cd32f90ef2c1760bd5682ad_card-img3.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68fa38356788375cf9fea325_04136a9b2cd32f90ef2c1760bd5682ad_card-img3.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68fa3b33543074d161cb369f_0985fda52d5fcb0d5a669020424759ef_content-img4.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68fa3b33543074d161cb369f_0985fda52d5fcb0d5a669020424759ef_content-img4.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68fa3b33c749456b593141f7_fea5849f20b4286a4988bc0721ca6067_content-img3.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68fa3b33c749456b593141f7_fea5849f20b4286a4988bc0721ca6067_content-img3.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68fa3b33f7d1268b4db6e38b_d16b22b7f7d98ffab881b8873286b818_content-img1.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68fa3b33f7d1268b4db6e38b_d16b22b7f7d98ffab881b8873286b818_content-img1.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68fa3b35802b5ec348fa7f58_a49fa83ca6ff8ce751264aa0e0c1c4cd_content-img2.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68fa3b35802b5ec348fa7f58_a49fa83ca6ff8ce751264aa0e0c1c4cd_content-img2.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68fa40142a512c49f23d5d86_Frame%202087327693.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68fa40142a512c49f23d5d86_Frame%202087327693.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68fb6ea846d96a5448b01987_agentos-hero.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68fb6ea846d96a5448b01987_agentos-hero.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68fb704bd9ea9cbd97d2ec55_fdf4bd81047dd7a9cea8fbfea06798cc_sec01-img3.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68fb704bd9ea9cbd97d2ec55_fdf4bd81047dd7a9cea8fbfea06798cc_sec01-img3.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68fb704be21d7acd87281d70_efffe5d98e405d92cb958b632ef364b4_sec01-img1.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68fb704be21d7acd87281d70_efffe5d98e405d92cb958b632ef364b4_sec01-img1.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/68fb704c4e8a15856500a175_665a648d653b4cf37f5f0cc79577e630_sec01-img2.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/68fb704c4e8a15856500a175_665a648d653b4cf37f5f0cc79577e630_sec01-img2.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6900a7d339b42b0e4dec8122_5067e9bec6ea0fa082f8ea31991d8e96_Frame%202147257077-p-1080.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6900a7d339b42b0e4dec8122_5067e9bec6ea0fa082f8ea31991d8e96_Frame%202147257077-p-1080.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6900a7d339b42b0e4dec8122_5067e9bec6ea0fa082f8ea31991d8e96_Frame%202147257077-p-500.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6900a7d339b42b0e4dec8122_5067e9bec6ea0fa082f8ea31991d8e96_Frame%202147257077-p-500.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6900a7d339b42b0e4dec8122_5067e9bec6ea0fa082f8ea31991d8e96_Frame%202147257077-p-800.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6900a7d339b42b0e4dec8122_5067e9bec6ea0fa082f8ea31991d8e96_Frame%202147257077-p-800.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6900a7d339b42b0e4dec8122_5067e9bec6ea0fa082f8ea31991d8e96_Frame%202147257077.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6900a7d339b42b0e4dec8122_5067e9bec6ea0fa082f8ea31991d8e96_Frame%202147257077.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6907b28e5bac0334ac84e8e2_23cf89845a70da64a2dc9ac8fb80a317_agnet%20osmobile-p-1080.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6907b28e5bac0334ac84e8e2_23cf89845a70da64a2dc9ac8fb80a317_agnet%20osmobile-p-1080.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6907b28e5bac0334ac84e8e2_23cf89845a70da64a2dc9ac8fb80a317_agnet%20osmobile-p-500.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6907b28e5bac0334ac84e8e2_23cf89845a70da64a2dc9ac8fb80a317_agnet%20osmobile-p-500.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6907b28e5bac0334ac84e8e2_23cf89845a70da64a2dc9ac8fb80a317_agnet%20osmobile-p-800.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6907b28e5bac0334ac84e8e2_23cf89845a70da64a2dc9ac8fb80a317_agnet%20osmobile-p-800.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6907b28e5bac0334ac84e8e2_23cf89845a70da64a2dc9ac8fb80a317_agnet%20osmobile.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6907b28e5bac0334ac84e8e2_23cf89845a70da64a2dc9ac8fb80a317_agnet%20osmobile.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6930e2dbc248da9ddefcd93c_avatar-5.png"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6930e2dbc248da9ddefcd93c_avatar-5.png"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/6932060a19d908fe9210150e_agentic-systems.avif"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/6932060a19d908fe9210150e_agentic-systems.avif"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/css/agno-staging.webflow.shared.66798b28d.css"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/agno-staging.webflow.shared.66798b28d.css"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/js/webflow.21fd8f95.6764d1ba68c55d51.js"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/webflow.21fd8f95.6764d1ba68c55d51.js"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/js/webflow.827f891e.ac8f4a6798421616.js"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/webflow.827f891e.ac8f4a6798421616.js"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/js/webflow.schunk.5b1c800ab8b5553d.js"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/webflow.schunk.5b1c800ab8b5553d.js"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/js/webflow.schunk.74f756804daaabee.js"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/webflow.schunk.74f756804daaabee.js"
+--next
+url = "https://cdn.prod.website-files.com/6796d350b8c706e4533e7e32/js/webflow.schunk.de80f719acaf7ae3.js"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/webflow.schunk.de80f719acaf7ae3.js"
+--next
+url = "https://cdn.prod.website-files.com/plugins/Basic/assets/placeholder.60f9b1840c.svg"
+output = "/Volumes/ESSD/Developer/Projects/fifteen-3/agno-clone/public/assets/webflow/media/placeholder.60f9b1840c.svg"

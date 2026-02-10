@@ -1,0 +1,25 @@
+---
+const { htmlAttrs = '', bodyAttrs = '', headHtml = '', bodyHtml } = Astro.props;
+
+const parseAttrs = (attrString) => {
+  const attrs = {};
+  const regex = /([^\s=]+)(?:="([^"]*)")?/g;
+  let match;
+  while ((match = regex.exec(attrString))) {
+    const key = match[1];
+    const value = match[2] ?? '';
+    attrs[key] = value;
+  }
+  return attrs;
+};
+
+const htmlAttrObject = parseAttrs(htmlAttrs);
+const bodyAttrObject = parseAttrs(bodyAttrs);
+---
+<!doctype html>
+<html {...htmlAttrObject}>
+  <head set:html={headHtml} />
+  <body {...bodyAttrObject}>
+    {typeof bodyHtml === 'string' ? <Fragment set:html={bodyHtml} /> : <slot />}
+  </body>
+</html>

@@ -1,0 +1,30 @@
+<header class="section_header62"><div class="grid-cell-top-first background-color-alternative-v2"><div class="padding-left-grid border-color-alternate"></div><div class="middle-grid"><div class="padding-section-large"><div class="header62_component"><div class="max-width-custom1 align-center"><div class="margin-bottom margin-xlarge"><div class="code-embed w-embed w-script"><script>
+window.Webflow ||= [];
+window.Webflow.push(() => {
+  const blinkingCursors = document.querySelectorAll(".blinking-cursor");
+
+  if (blinkingCursors.length === 0) return;
+
+  blinkingCursors.forEach(cursor => {
+    gsap.to(cursor, {
+      opacity: 0,
+      duration: 0.5,
+      repeat: -1,
+      yoyo: true,
+      ease: "power1.inOut"  // match the .cursor smooth fade
+    });
+  });
+});
+</script></div><h1 class="heading-style-h1 text-wrap-balance">A workspace for long-cycle thinking.<span class="blinking-cursor text-color-accent">get access</span></h1></div><div class="margin-bottom margin-xlarge"><p class="text-size-medium text-color-alternate2">Fifteen is an agentic workspace built for investors and research-heavy teams. Capture sources, draft memos with context-aware agents, and keep decisions traceable from first signal to IC.<br/><br/>AI isn’t a feature here—it’s a workflow layer on top of your research. The goal is faster conviction with fewer blind spots.<br/>get access<br/></p><p class="text-size-medium text-color-alternate2"><span><em>view templates</em></span></p></div></div></div></div></div><div class="padding-right-grid border-color-alternate"></div></div><div class="header62_image-wrapper"><img alt="" class="header62_image" loading="lazy" sizes="100vw" src="/assets/webflow/media/6900a7d339b42b0e4dec8122_5067e9bec6ea0fa082f8ea31991d8e96_Frame%202147257077.png" srcset="/assets/webflow/media/6900a7d339b42b0e4dec8122_5067e9bec6ea0fa082f8ea31991d8e96_Frame%202147257077-p-500.png 500w, /assets/webflow/media/6900a7d339b42b0e4dec8122_5067e9bec6ea0fa082f8ea31991d8e96_Frame%202147257077-p-800.png 800w, /assets/webflow/media/6900a7d339b42b0e4dec8122_5067e9bec6ea0fa082f8ea31991d8e96_Frame%202147257077-p-1080.png 1080w, /assets/webflow/media/6900a7d339b42b0e4dec8122_5067e9bec6ea0fa082f8ea31991d8e96_Frame%202147257077.png 1464w"/><div class="code-embed w-embed"><style>
+@media screen and (min-width: 1600px) and (max-width: 2000px) {
+  .header62_image-wrapper {
+    max-width: 40% !important;
+  }
+}
+
+@media screen and (min-width: 2001px) {
+  .header62_image-wrapper {
+    max-width: 35% !important;
+  }
+}
+</style></div></div></header>

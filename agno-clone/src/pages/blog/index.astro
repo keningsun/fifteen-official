@@ -1,0 +1,25 @@
+---
+import WebflowLayout from '../../layouts/WebflowLayout.astro';
+import headHtml from '../../content/webflow/heads/blog.html?raw';
+import htmlAttrsMap from '../../content/webflow/attrs.json';
+import bodyAttrsMap from '../../content/webflow/body-attrs.json';
+
+import BlogPre from '../../sections/blog/BlogPre.astro';
+import BlogMainOpen from '../../sections/blog/BlogMainOpen.astro';
+import Section01SectionBlog from '../../sections/blog/Section01SectionBlog.astro';
+import BlogMainClose from '../../sections/blog/BlogMainClose.astro';
+import BlogPost from '../../sections/blog/BlogPost.astro';
+
+const key = 'blog';
+---
+<WebflowLayout
+  htmlAttrs={htmlAttrsMap[key]}
+  bodyAttrs={bodyAttrsMap[key]}
+  headHtml={headHtml}
+>
+  <BlogPre />
+  <BlogMainOpen />
+  <Section01SectionBlog />
+  <BlogMainClose />
+  <BlogPost />
+</WebflowLayout>

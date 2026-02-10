@@ -1,0 +1,18 @@
+<section class="section_header2 background-color-alternative"><div class="grid-cell background-color-alternative"><div class="padding-left-grid border-color-alternate"></div><div class="middle-grid"><div class="container-large"><div class="header01_component"><div class="w-layout-grid header01_content"><div class="header01_content-left"><div class="header01_content-left-max-width"><div class="margin-bottom margin-small"><div class="text-font-mono text-size-small text-weight-medium text-color-tertiary">A workspace for long-cycle thinking.</div></div><div class="margin-bottom margin-small"><div class="code-embed w-embed w-script"><script>
+window.Webflow ||= [];
+window.Webflow.push(() => {
+  const blinkingCursors = document.querySelectorAll(".blinking-cursor");
+
+  if (blinkingCursors.length === 0) return;
+
+  blinkingCursors.forEach(cursor => {
+    gsap.to(cursor, {
+      opacity: 0,
+      duration: 0.5,
+      repeat: -1,
+      yoyo: true,
+      ease: "power1.inOut"  // match the .cursor smooth fade
+    });
+  });
+});
+</script></div><h2 class="heading-style-h2">A workspace for long-cycle thinking.<span class="blinking-cursor text-color-accent">get access</span></h2></div><p class="text-size-regular text-color-alternate-90">Fifteen is an agentic workspace built for investors and research-heavy teams. Capture sources, draft memos with context-aware agents, and keep decisions traceable from first signal to IC.<br/><br/>Agentic workspace for VC research and investment memos.</p></div></div><div class="header01_image-wrapper v2"><img alt="View templates" class="header01_image v2" loading="eager" src="/assets/webflow/media/6932060a19d908fe9210150e_agentic-systems.avif"/></div></div></div></div></div><div class="padding-right-grid border-color-alternate"></div></div></section>

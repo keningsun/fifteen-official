@@ -1,0 +1,41 @@
+---
+import WebflowLayout from '../layouts/WebflowLayout.astro';
+import headHtml from '../content/webflow/heads/index.html?raw';
+import htmlAttrsMap from '../content/webflow/attrs.json';
+import bodyAttrsMap from '../content/webflow/body-attrs.json';
+
+import IndexPre from '../sections/index/IndexPre.astro';
+import IndexMainOpen from '../sections/index/IndexMainOpen.astro';
+import Section01MainHero from '../sections/index/Section01MainHero.astro';
+import Section03SectionLogo2 from '../sections/index/Section03SectionLogo2.astro';
+import Section04SectionHeader55 from '../sections/index/Section04SectionHeader55.astro';
+import Section05SectionLayout360 from '../sections/index/Section05SectionLayout360.astro';
+import Section06SectionHeader46 from '../sections/index/Section06SectionHeader46.astro';
+import Section07SectionLayout386 from '../sections/index/Section07SectionLayout386.astro';
+import Section08SectionLayout295 from '../sections/index/Section08SectionLayout295.astro';
+import Section09SectionHeader46 from '../sections/index/Section09SectionHeader46.astro';
+import Section10FutureHeader from '../sections/index/Section10FutureHeader.astro';
+import IndexMainClose from '../sections/index/IndexMainClose.astro';
+import IndexPost from '../sections/index/IndexPost.astro';
+
+const key = 'index';
+---
+<WebflowLayout
+  htmlAttrs={htmlAttrsMap[key]}
+  bodyAttrs={bodyAttrsMap[key]}
+  headHtml={headHtml}
+>
+  <IndexPre />
+  <IndexMainOpen />
+  <Section01MainHero />
+  <Section03SectionLogo2 />
+  <Section04SectionHeader55 />
+  <Section05SectionLayout360 />
+  <Section06SectionHeader46 />
+  <Section07SectionLayout386 />
+  <Section08SectionLayout295 />
+  <Section09SectionHeader46 />
+  <Section10FutureHeader />
+  <IndexMainClose />
+  <IndexPost />
+</WebflowLayout>
