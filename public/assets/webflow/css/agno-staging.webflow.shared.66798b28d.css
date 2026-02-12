@@ -13340,3 +13340,9 @@ figcaption {
     max-width: 9.5rem;
   }
 }
+
+@media screen and (max-width: 991px) and (min-width: 768px) {
+  .navbar2_logo {
+    max-width: 8.5rem;
+  }
+}
