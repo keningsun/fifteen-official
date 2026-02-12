@@ -3894,7 +3894,7 @@ figcaption {
 
 .navbar2_logo {
   width: 100%;
-  max-width: 4.5625rem;
+  max-width: 7.25rem;
 }
 
 .navbar2_menu-left {
@@ -13327,4 +13327,10 @@ figcaption {
     width: auto !important;
     margin-left: auto !important;
   }
+}
+
+
+.navbar2_logo,
+.footer012_logo {
+  mix-blend-mode: difference;
 }
