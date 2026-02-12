@@ -2148,7 +2148,7 @@ textarea.w-input, textarea.w-select {
   --border-color--border-primary: var(--base-color-brand--gray-6);
   --base-color-neutral--white: white;
   --base-color-neutral--black: black;
-  --base-color-brand--orange: #ff4017;
+  --base-color-brand--orange: #2EBD4F;
   --background-color--background-tertiary: var(--base-color-brand--gray-5);
   --background-color--background-alternate-3: var(--base-color-brand--gray-13);
   --base-color-brand--gray-8: #bbb;
@@ -2172,7 +2172,7 @@ textarea.w-input, textarea.w-select {
   --background-color--background-alternate-2: var(--base-color-brand--gray-14);
   --border-color--border-secondary: var(--base-color-brand--gray-4);
   --base-color-brand--gray-7: #cecece;
-  --base-color-brand--orange-400: #f25837;
+  --base-color-brand--orange-400: #2EBD4F;
   --text-color--text-tertiary: var(--base-color-brand--gray-10);
   --base-color-brand--gray-3: #f0f0f0;
   --base-color-brand--blue-3: #2563eb;
@@ -2585,7 +2585,7 @@ figcaption {
 }
 
 .padding-tiny {
-  padding: .25rem;
+  padding: .35rem;
 }
 
 .padding-xxsmall {
@@ -2773,7 +2773,7 @@ figcaption {
 }
 
 .rl-styleguide_callout-link-wrapper-colors {
-  background-image: linear-gradient(135deg, #ff744826, #ff484826 50%, #6248ff26), linear-gradient(#fff, #fff);
+  background-image: linear-gradient(135deg, #2EBD4F26, #2EBD4F26 50%, #6248ff26), linear-gradient(#fff, #fff);
   border-radius: .6875rem;
   justify-content: space-between;
   align-items: center;
@@ -2857,7 +2857,7 @@ figcaption {
 }
 
 .form_radio.is-alternate {
-  color: var(--text-color--text-alternate);
+  color: var(--base-color-neutral--black);
 }
 
 .heading-style {
@@ -2936,10 +2936,10 @@ figcaption {
   text-align: center;
   letter-spacing: -.01rem;
   text-transform: uppercase;
-  border-radius: 22.5rem;
+  border-radius: 0rem;
   justify-content: center;
   align-items: center;
-  padding: .53125rem 1rem .5rem;
+  padding: .6875rem 1rem .65625rem;
   font-weight: 500;
   line-height: 1;
   text-decoration: none;
@@ -2970,7 +2970,7 @@ figcaption {
   grid-row-gap: .5rem;
   justify-content: center;
   align-items: center;
-  padding-top: .5625rem;
+  padding-top: .75rem;
   padding-left: .875rem;
   display: flex;
 }
@@ -3390,7 +3390,7 @@ figcaption {
 
 .rl-styleguide_callout-link_colors {
   background-color: #fff;
-  background-image: linear-gradient(135deg, #ff7448, #ff4848 50%, #6248ff);
+  background-image: linear-gradient(135deg, #2EBD4F, #2EBD4F 50%, #6248ff);
   border-radius: .75rem;
   justify-content: space-between;
   align-items: center;
@@ -5087,12 +5087,12 @@ figcaption {
   text-align: center;
   letter-spacing: -.01rem;
   text-transform: uppercase;
-  background-color: #ff4017;
+  background-color: #2EBD4F;
   border: 1px #000;
-  border-radius: 22.5rem;
+  border-radius: 0rem;
   justify-content: center;
   align-items: center;
-  padding: .53125rem 1rem .5rem;
+  padding: .6875rem 1rem .65625rem;
   font-weight: 500;
   text-decoration: none;
   display: flex;
@@ -7900,12 +7900,12 @@ figcaption {
 
 .chapter-item:hover {
   border: 1px #000;
-  border-top-color: orange;
-  border-left: 1px solid orange;
+  border-top-color: #2EBD4F;
+  border-left: 1px solid #2EBD4F;
 }
 
 .chapter-item:active {
-  border: 1px orange;
+  border: 1px #2EBD4F;
   border-left-width: 0;
 }
 
@@ -8331,16 +8331,16 @@ figcaption {
 }
 
 .button-2 {
-  color: #fff;
+  color: #000;
   text-align: center;
   letter-spacing: -.01rem;
   text-transform: uppercase;
-  background-color: #ff4017;
+  background-color: #2EBD4F;
   border: 1px #000;
-  border-radius: 22.5rem;
+  border-radius: 0rem;
   justify-content: center;
   align-items: center;
-  padding: .53125rem 1rem .5rem;
+  padding: .6875rem 1rem .65625rem;
   font-weight: 500;
   line-height: 1;
   text-decoration: none;
@@ -8367,7 +8367,7 @@ figcaption {
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding-top: .5625rem;
+  padding-top: .75rem;
   padding-left: 3rem;
   padding-right: 3rem;
   display: flex;
@@ -8573,7 +8573,7 @@ figcaption {
 }
 
 .layout295_item-icon-2 {
-  background-color: #ff4017;
+  background-color: #2EBD4F;
   border-radius: 1000%;
   width: .5rem;
   height: .5rem;
@@ -8641,7 +8641,7 @@ figcaption {
 }
 
 .text-color-accent-2 {
-  color: #ff4017;
+  color: #2EBD4F;
 }
 
 .button-wrapper-2 {
@@ -8660,7 +8660,7 @@ figcaption {
 }
 
 .layout360_item-icon-2 {
-  background-color: #ff4017;
+  background-color: #2EBD4F;
   border-radius: 1000%;
   width: .3125rem;
   height: .3125rem;
@@ -13345,4 +13345,70 @@ figcaption {
   .navbar2_logo {
     max-width: 8.5rem;
   }
+}
+
+
+.button:hover, .button-2:hover {
+  background-color: #2EBD4F;
+}
+
+/* Fifteen hover + navbar button height */
+.button:hover,
+.button-2:hover,
+.button-wrapper:hover .button,
+.button-wrapper:hover .button-2 {
+  background-color: #2EBD4F !important;
+  border-color: #2EBD4F !important;
+}
+
+.button-wrapper.navbar .button {
+  padding: .85rem 1.15rem .8rem;
+}
+
+/* Fifteen hover tweak + navbar button size */
+.button:hover,
+.button-2:hover,
+.button-wrapper:hover .button,
+.button-wrapper:hover .button-2 {
+  background-color: #27A943 !important;
+  border-color: #27A943 !important;
+}
+
+.navbar2_component .button-wrapper.navbar {
+  padding: .45rem !important;
+}
+
+.navbar2_component .button-wrapper.navbar .button {
+  padding: .78rem 1.1rem .74rem !important;
+  min-height: 2.25rem;
+}
+
+/* Fifteen navbar button spacing cleanup */
+.navbar2_component .button-wrapper.navbar {
+  padding: 0 !important;
+}
+
+/* Fifteen navbar button wrapper padding fix */
+.navbar2_component .button-wrapper.tablet-max-width-full {
+  padding: 0 !important;
+}
+
+.navbar2_component .button-wrapper.tablet-max-width-full .button {
+  padding: .78rem 1.1rem .74rem !important;
+  min-height: 2.25rem;
+}
+
+.button .icon-embed-xxsmall svg,
+.button-2 .icon-embed-xxsmall svg {
+  color: #000;
+  fill: #000;
+  stroke: #000;
+}
+
+/* Fifteen button icon color */
+.button .icon-embed-xxsmall svg,
+.button-2 .icon-embed-xxsmall svg {
+  color: #fff;
+  fill: #fff;
+  stroke: #fff;
 }
