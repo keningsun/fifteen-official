@@ -13334,3 +13334,9 @@ figcaption {
 .footer012_logo {
   mix-blend-mode: difference;
 }
+
+@media screen and (max-width: 767px) {
+  .navbar2_logo {
+    max-width: 9.5rem;
+  }
+}
