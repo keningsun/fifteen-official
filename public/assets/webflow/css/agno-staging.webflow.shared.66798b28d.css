@@ -13405,15 +13405,22 @@ figcaption {
   stroke: #000;
 }
 
-/* Fifteen button icon color */
-.button .icon-embed-xxsmall svg,
-.button-2 .icon-embed-xxsmall svg {
-  color: #fff;
-  fill: #fff;
-  stroke: #fff;
-}
-
 /* Fifteen hard overrides */
 .button, .button-2 {
   border-radius: 0 !important;
+}
+
+/* Fifteen button icon inherits */
+.button .icon-embed-xxsmall svg,
+.button-2 .icon-embed-xxsmall svg {
+  color: currentColor;
+  fill: currentColor;
+  stroke: currentColor;
+}
+
+/* Fifteen layout0234 icons use brand green */
+.layout0234_item-icon-wrapper svg {
+  color: var(--base-color-brand--orange);
+  fill: var(--base-color-brand--orange);
+  stroke: var(--base-color-brand--orange);
 }
