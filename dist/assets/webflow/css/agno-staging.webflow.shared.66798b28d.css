@@ -13411,6 +13411,26 @@ figcaption {
 }
 
 /* Fifteen hard overrides */
+/* Navbar links (DOCS, PRICING, TEAM) - match PRODUCT/RESOURCES primary text color, no underline */
+.navbar2_link {
+  color: var(--text-color--text-primary);
+  text-decoration: none;
+}
+
+/* Navbar dropdown menu titles (Agent Framework, Agentos, Blog, Community) - match primary text color, no underline */
+.navbar2_dropdown-link,
+.navbar2_dropdown-link .navbar2_dropdown-link-text > div:first-child {
+  color: var(--text-color--text-primary);
+  text-decoration: none;
+}
+
+/* FAQ accordion - ensure expand/collapse works (override inline styles that block display) */
+.faq3_answer.w--open {
+  height: auto !important;
+  opacity: 1 !important;
+  overflow: visible !important;
+}
+
 .button, .button-2 {
   border-radius: 0 !important;
 }
