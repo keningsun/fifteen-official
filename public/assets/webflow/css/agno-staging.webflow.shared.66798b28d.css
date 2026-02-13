@@ -13412,3 +13412,8 @@ figcaption {
   fill: #fff;
   stroke: #fff;
 }
+
+/* Fifteen hard overrides */
+.button, .button-2 {
+  border-radius: 0 !important;
+}
