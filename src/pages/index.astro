@@ -1,49 +1,25 @@
 ---
 import WebflowLayout from '../layouts/WebflowLayout.astro';
-import headHtml from '../content/webflow/heads/agent-framework.html?raw';
-import htmlAttrsMap from '../content/webflow/attrs.json';
-import bodyAttrsMap from '../content/webflow/body-attrs.json';
+import headHtml from '../content/webflow/heads/index.html?raw';
 
-import AgentFrameworkPre from '../sections/agent-framework/AgentFrameworkPre.astro';
-import AgentFrameworkMainOpen from '../sections/agent-framework/AgentFrameworkMainOpen.astro';
-import Section01SectionHeader1 from '../sections/agent-framework/Section01SectionHeader1.astro';
-import Section02SectionLayout0234 from '../sections/agent-framework/Section02SectionLayout0234.astro';
-import Section04SectionLogo2 from '../sections/agent-framework/Section04SectionLogo2.astro';
-import Section05SectionHeader55 from '../sections/agent-framework/Section05SectionHeader55.astro';
-import Section06SectionHeader46 from '../sections/agent-framework/Section06SectionHeader46.astro';
-import Section07SectionLayout394 from '../sections/agent-framework/Section07SectionLayout394.astro';
-import Section08SectionHeader46 from '../sections/agent-framework/Section08SectionHeader46.astro';
-import Section09SectionLayout399 from '../sections/agent-framework/Section09SectionLayout399.astro';
-import Section11SectionHeader2 from '../sections/agent-framework/Section11SectionHeader2.astro';
-import Section12SectionLayout234 from '../sections/agent-framework/Section12SectionLayout234.astro';
-import Section13SectionFaq3 from '../sections/agent-framework/Section13SectionFaq3.astro';
-import Section14SectionHeader46 from '../sections/agent-framework/Section14SectionHeader46.astro';
-import Section15SectionHeader46 from '../sections/agent-framework/Section15SectionHeader46.astro';
-import AgentFrameworkMainClose from '../sections/agent-framework/AgentFrameworkMainClose.astro';
-import AgentFrameworkPost from '../sections/agent-framework/AgentFrameworkPost.astro';
-
-const key = 'agent-framework';
+import Section01MainHero from '../sections/index/Section01MainHero.astro';
+import Section03SectionLogo2 from '../sections/index/Section03SectionLogo2.astro';
+import Section04SectionHeader55 from '../sections/index/Section04SectionHeader55.astro';
+import Section05SectionLayout360 from '../sections/index/Section05SectionLayout360.astro';
+import Section06SectionHeader46 from '../sections/index/Section06SectionHeader46.astro';
+import Section07SectionLayout386 from '../sections/index/Section07SectionLayout386.astro';
+import Section08SectionLayout295 from '../sections/index/Section08SectionLayout295.astro';
+import Section09SectionHeader46 from '../sections/index/Section09SectionHeader46.astro';
+import Section10FutureHeader from '../sections/index/Section10FutureHeader.astro';
 ---
-<WebflowLayout
-  htmlAttrs={htmlAttrsMap[key]}
-  bodyAttrs={bodyAttrsMap[key]}
-  headHtml={headHtml}
->
-  <AgentFrameworkPre />
-  <AgentFrameworkMainOpen />
-  <Section01SectionHeader1 />
-  <Section02SectionLayout0234 />
-  <Section04SectionLogo2 />
-  <Section05SectionHeader55 />
+<WebflowLayout headHtml={headHtml}>
+  <Section01MainHero />
+  <Section03SectionLogo2 />
+  <Section04SectionHeader55 />
+  <Section05SectionLayout360 />
   <Section06SectionHeader46 />
-  <Section07SectionLayout394 />
-  <Section08SectionHeader46 />
-  <Section09SectionLayout399 />
-  <Section11SectionHeader2 />
-  <Section12SectionLayout234 />
-  <Section13SectionFaq3 />
-  <Section14SectionHeader46 />
-  <Section15SectionHeader46 />
-  <AgentFrameworkMainClose />
-  <AgentFrameworkPost />
+  <Section07SectionLayout386 />
+  <Section08SectionLayout295 />
+  <Section09SectionHeader46 />
+  <Section10FutureHeader />
 </WebflowLayout>

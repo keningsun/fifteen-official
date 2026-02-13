@@ -1,25 +1,9 @@
 ---
 import WebflowLayout from '../layouts/WebflowLayout.astro';
 import headHtml from '../content/webflow/heads/changelog.html?raw';
-import htmlAttrsMap from '../content/webflow/attrs.json';
-import bodyAttrsMap from '../content/webflow/body-attrs.json';
 
-import ChangelogPre from '../sections/changelog/ChangelogPre.astro';
-import ChangelogMainOpen from '../sections/changelog/ChangelogMainOpen.astro';
 import Section01SectionContent27 from '../sections/changelog/Section01SectionContent27.astro';
-import ChangelogMainClose from '../sections/changelog/ChangelogMainClose.astro';
-import ChangelogPost from '../sections/changelog/ChangelogPost.astro';
-
-const key = 'changelog';
 ---
-<WebflowLayout
-  htmlAttrs={htmlAttrsMap[key]}
-  bodyAttrs={bodyAttrsMap[key]}
-  headHtml={headHtml}
->
-  <ChangelogPre />
-  <ChangelogMainOpen />
+<WebflowLayout headHtml={headHtml} mainTag="div">
   <Section01SectionContent27 />
-  <ChangelogMainClose />
-  <ChangelogPost />
 </WebflowLayout>

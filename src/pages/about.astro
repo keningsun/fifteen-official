@@ -1,31 +1,15 @@
 ---
 import WebflowLayout from '../layouts/WebflowLayout.astro';
 import headHtml from '../content/webflow/heads/about.html?raw';
-import htmlAttrsMap from '../content/webflow/attrs.json';
-import bodyAttrsMap from '../content/webflow/body-attrs.json';
 
-import AboutPre from '../sections/about/AboutPre.astro';
-import AboutMainOpen from '../sections/about/AboutMainOpen.astro';
 import Section01SectionHeader62 from '../sections/about/Section01SectionHeader62.astro';
 import Section02SectionHeader46 from '../sections/about/Section02SectionHeader46.astro';
 import Section03SectionHeader46 from '../sections/about/Section03SectionHeader46.astro';
 import Section04SectionHeader46 from '../sections/about/Section04SectionHeader46.astro';
-import AboutMainClose from '../sections/about/AboutMainClose.astro';
-import AboutPost from '../sections/about/AboutPost.astro';
-
-const key = 'about';
 ---
-<WebflowLayout
-  htmlAttrs={htmlAttrsMap[key]}
-  bodyAttrs={bodyAttrsMap[key]}
-  headHtml={headHtml}
->
-  <AboutPre />
-  <AboutMainOpen />
+<WebflowLayout headHtml={headHtml} bodyClass="background-color-alternative">
   <Section01SectionHeader62 />
   <Section02SectionHeader46 />
   <Section03SectionHeader46 />
   <Section04SectionHeader46 />
-  <AboutMainClose />
-  <AboutPost />
 </WebflowLayout>
