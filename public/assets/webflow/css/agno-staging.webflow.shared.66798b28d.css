@@ -5748,6 +5748,16 @@ figcaption {
 
 .blinking-cursor {
   padding-left: .25rem;
+  animation: blink 1s step-end infinite;
+}
+
+@keyframes blink {
+  0%, 49% {
+    opacity: 1;
+  }
+  50%, 100% {
+    opacity: 0;
+  }
 }
 
 .arc {
@@ -13378,9 +13388,10 @@ figcaption {
   padding: .45rem !important;
 }
 
-.navbar2_component .button-wrapper.navbar .button {
-  padding: .78rem 1.1rem .74rem !important;
-  min-height: 2.25rem;
+.navbar2_component .button-wrapper.navbar .button.is-small.is-icon {
+  padding: .75rem 1rem .65625rem .875rem !important;
+  min-height: auto;
+  line-height: 1;
 }
 
 /* Fifteen navbar button spacing cleanup */
@@ -13393,16 +13404,10 @@ figcaption {
   padding: 0 !important;
 }
 
-.navbar2_component .button-wrapper.tablet-max-width-full .button {
-  padding: .78rem 1.1rem .74rem !important;
-  min-height: 2.25rem;
-}
-
-.button .icon-embed-xxsmall svg,
-.button-2 .icon-embed-xxsmall svg {
-  color: #000;
-  fill: #000;
-  stroke: #000;
+.navbar2_component .button-wrapper.tablet-max-width-full .button.is-small.is-icon {
+  padding: .75rem 1rem .65625rem .875rem !important;
+  min-height: auto;
+  line-height: 1;
 }
 
 /* Fifteen hard overrides */
@@ -13413,14 +13418,37 @@ figcaption {
 /* Fifteen button icon inherits */
 .button .icon-embed-xxsmall svg,
 .button-2 .icon-embed-xxsmall svg {
-  color: currentColor;
+  color: inherit;
   fill: currentColor;
   stroke: currentColor;
 }
 
 /* Fifteen layout0234 icons use brand green */
-.layout0234_item-icon-wrapper svg {
+.layout0234_item-icon-wrapper {
   color: var(--base-color-brand--orange);
-  fill: var(--base-color-brand--orange);
-  stroke: var(--base-color-brand--orange);
+}
+
+.layout0234_item-icon-wrapper svg path,
+.layout0234_item-icon-wrapper svg circle,
+.layout0234_item-icon-wrapper svg line,
+.layout0234_item-icon-wrapper svg polyline,
+.layout0234_item-icon-wrapper svg polygon {
+  stroke: currentColor;
+}
+
+.layout0234_item-icon-wrapper svg rect {
+  stroke: var(--base-color-brand--gray-5);
+}
+
+/* Fifteen layout399 icons use brand green */
+.layout399_tag .icon-embed-small {
+  color: var(--base-color-brand--orange);
+}
+
+.layout399_tag .icon-embed-small svg path,
+.layout399_tag .icon-embed-small svg circle,
+.layout399_tag .icon-embed-small svg line,
+.layout399_tag .icon-embed-small svg polyline,
+.layout399_tag .icon-embed-small svg polygon {
+  stroke: currentColor;
 }
