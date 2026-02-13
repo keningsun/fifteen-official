@@ -13424,6 +13424,16 @@ figcaption {
   text-decoration: none;
 }
 
+/* Navbar dropdown arrow - hide by default, show only on hover (fixes arrow showing incorrectly for non-current page) */
+.navbar2_dropdown-link .navbar2_dropdown-link-hover-icon-wrapper {
+  opacity: 0;
+  transition: opacity 0.2s ease;
+}
+.navbar2_dropdown-link:hover .navbar2_dropdown-link-hover-icon-wrapper,
+.navbar2_dropdown-link.w--current .navbar2_dropdown-link-hover-icon-wrapper {
+  opacity: 1;
+}
+
 /* FAQ accordion - ensure expand/collapse works (override inline styles that block display) */
 .faq3_answer.w--open {
   height: auto !important;
@@ -13463,6 +13473,19 @@ figcaption {
 /* Fifteen layout399 icons use brand green */
 .layout399_tag .icon-embed-small {
   color: var(--base-color-brand--orange);
+}
+
+/* Footer: email text - no underline when not hovered; social links - icons only */
+.footer012_email-link .footer012_link::before,
+.footer012_email-text::before {
+  display: none !important;
+}
+.footer012_email-link,
+.footer012_email-link .footer012_link {
+  text-decoration: none !important;
+}
+.footer012_email-link:hover .footer012_link {
+  text-decoration: underline;
 }
 
 .layout399_tag .icon-embed-small svg path,
