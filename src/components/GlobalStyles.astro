@@ -202,4 +202,43 @@ margin: 0rem !important;
     display: none;
 }
 
+/* Footer: right border for Company column on desktop (use :global - footer is in different component) */
+@media screen and (min-width: 992px) {
+  :global(.footer_menu-wrapper) {
+    border-right: 1px solid var(--border-color--border-alternate) !important;
+  }
+}
+
+/* Footer bottom section - ensure black/dark background and white text */
+:global(.footer012_component .grid-cell.hide-border-tablet) {
+  background-color: var(--background-color--background-alternate) !important;
+  color: white !important;
+}
+:global(.footer012_component .grid-cell.hide-border-tablet .footer012_credit-text),
+:global(.footer012_component .grid-cell.hide-border-tablet .footer012_link-legal),
+:global(.footer012_component .grid-cell.hide-border-tablet .footer012_link-legal:hover) {
+  color: white !important;
+}
+
+/* FAQ accordion: smooth expand/collapse animation + plus icon rotation */
+:global(.faq3_answer) {
+  max-height: 0 !important;
+  opacity: 0 !important;
+  overflow: hidden !important;
+  transition: max-height 0.35s ease, opacity 0.3s ease;
+}
+:global(.faq3_answer.w--open) {
+  height: auto !important;
+  max-height: 600px !important;
+  opacity: 1 !important;
+  overflow: visible !important;
+}
+:global(.faq3_question .icon-embed-small) {
+  flex-shrink: 0;
+  transition: transform 0.35s ease;
+}
+:global(.faq3_question.w--open .icon-embed-small) {
+  transform: rotate(45deg);
+}
+
 </style></div>

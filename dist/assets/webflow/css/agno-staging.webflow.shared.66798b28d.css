@@ -13475,17 +13475,10 @@ figcaption {
   color: var(--base-color-brand--orange);
 }
 
-/* Footer: email text - no underline when not hovered; social links - icons only */
-.footer012_email-link .footer012_link::before,
-.footer012_email-text::before {
-  display: none !important;
-}
+/* Footer: email - no underline by default, hover underline animation retained; social - icons only */
 .footer012_email-link,
 .footer012_email-link .footer012_link {
   text-decoration: none !important;
-}
-.footer012_email-link:hover .footer012_link {
-  text-decoration: underline;
 }
 
 .layout399_tag .icon-embed-small svg path,
